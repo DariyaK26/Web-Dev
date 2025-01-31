@@ -1,0 +1,280 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    
+}
+.facebook_logo{
+    width: 321px;
+    height:106px;
+    
+}
+.left_image{
+    margin:-28px;
+    padding-top:112px;
+    padding-bottom: 16px;
+}
+.top{
+    background-color: rgba(242,244,247,255);
+}
+.top_height{
+    padding-top:72px;
+    padding-bottom: 112px;
+}
+.top_width{
+    padding: 20px 0;
+    margin:0 auto;
+    width: 980px;
+    position: relative;
+    display: block;
+}
+.top_left{
+    padding-right: 32px;
+    width:580px;
+    height: 298px;
+    box-sizing: border-box;
+    margin-right: 0;
+    display: inline-block;
+    
+}
+.greeting{
+    font-size: 28px;
+    font-weight: normal;
+    width: 500px;
+    padding: 0 0;
+}
+.top_right{
+    margin-top: 40px;
+    width: 396px;
+    height: 496px;
+    display: inline-block;
+    vertical-align: top;
+}
+.top_registr{
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, .1), 0px 8px 16px rgba(0, 0, 0, .1);
+}
+h2{
+    margin-top: 0px;
+}
+
+.top_form{
+    padding-top: 10px;
+    padding-bottom: 24px;
+    text-align: center;
+    
+
+}
+.form_all{
+    padding:6px 0 6px;
+    
+}
+.inputs{
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    border-radius: 6px;
+}
+.form_alone{
+    width: 364px;
+    font-size: 12px;
+    margin: auto;
+}
+.enter_button{
+    padding: 6px;
+}
+.enter{
+    width: 364px;
+    padding: 14px 16px 14px;
+    border-radius: 6px;
+    border: none;
+    background-color: rgba(8,102,255,255);
+    color: white;
+    font-weight: bold;
+    font-size:20px;
+}
+.enter:hover{
+    background-color: rgba(24,119,242,255);
+}
+.forget_password{
+    margin-top: 16px;
+    
+}
+.forget_password_link{
+    text-decoration: none;
+    font-size: 14px;
+    color: rgba(8,102,255,255);
+}
+.forget_password_link:hover{
+    text-decoration: underline;
+}
+.line{
+    margin: 20px 16px;
+    border-collapse: collapse;
+    border-top: 1px solid #dddfe2;
+}
+.new_account{
+    padding-top: 18px;
+    padding-bottom: 10px;
+    
+}
+.new_account-link{
+    font-size: 16px;
+    background-color: rgba(66,183,42,255);
+    color:white;
+    padding: 16px 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 6px;
+    
+}
+.top_registr-message{
+    margin-top: 28px;
+    font-size: 14px;
+    text-align: center;
+
+}
+.message-link{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+.bottom_height{
+    padding-top: 20px;
+}
+.bottom{
+    width: 980px;
+    margin:0 auto;
+    
+}
+
+li{
+    display: inline-block;
+   
+}
+li:hover{
+    list-style: none;
+    text-decoration: underline;
+}
+.la {
+    text-decoration: none;
+    padding-left: 20px;
+    vertical-align: top;
+    color:#737373;
+    display: flex;
+    flex-wrap: wrap;
+}
+.l{
+    padding-left: 0;
+}
+.al{
+    padding-left: 10px;
+}
+ul{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+    margin-left: -20px;
+    padding: 0;
+    line-height: 1.6;
+}
+.bottom_line{
+    margin: 8px 0;
+    
+    border-collapse: collapse;
+    border-top: 1px solid #dddfe2;
+}
+.meta_2025{
+    margin: 20px 0;
+    color:#737373
+}
+.add{
+    border: 1px solid #ccd0d5;
+    align-items: center;
+    vertical-align: middle;
+    width: 12px;
+    height: 18px;
+    margin-left: 10px; 
+    padding: 0 8px; 
+    border-radius: 2px;
+    
+    
+}
+.other_lang{
+    width: 12px;
+    height: 12px;
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v4/y4/r/K8x9_ypArDA.png);
+    background-position: -100px -60px;
+}
+.adding{
+    padding-right: 10px;
+}
+.ad{
+    width: 16px;
+    height: 16px;
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v4/y4/r/K8x9_ypArDA.png);
+    background-position: -21px -60px;
+}
+
+
+
+
+@media only screen and (max-width: 900px){
+    .top_height{
+        padding-bottom: 164px;
+        padding-top: 20px;
+    }
+    .top_width{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        margin: 0 40px;
+        width: auto;
+        
+        height: 496px;
+        
+    }
+    .left_image{
+        padding: 0 0 20px 0;
+    }
+    .top_right{
+        margin-top: 20px;
+    }
+    .greeting{
+        font-size: 24px;
+        width: 400px;
+    }
+}
+
+
+@media only screen and (max-width: 1075px){
+    .greeting{
+        font-size: 24px;
+        width: 368px;
+    }
+    
+    .top_width{
+        margin: 0 40px;
+        width: auto;
+        height: 496px;
+    }
+    .top_left{
+        width: 400px;
+    }
+    .top_right{
+        float: right;
+    }
+    .bottom{
+        margin:0 40px;
+        width: auto;
+    }
+}
+
