@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+       
+
+        header{
+            background-color: rgb(38, 38, 38);
+            color: rgb(183, 183, 183);
+            padding: 20px 50px;
+            font-size: large;
+        }
+        ul{
+           list-style:  none;
+           margin-top: 120px;
+
+            
+        }
+        li{
+            border: 1px solid rgb(151, 151, 151);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+            border-radius: 3px;
+            
+            
+        }
+        .container{
+            
+           
+           width: 800px;
+           margin: 50px auto;
+           justify-content: center;
+           position: relative;
+           padding: 0 20px;
+        }
+        #Input{
+            box-sizing: border-box;
+            width: 75%;
+            padding: 10px;
+            float: left;
+            margin:30px 20px;
+        }
+        #add{
+            float: right;
+            
+            margin:30px 20px;
+            
+        }
+        .done{
+           span{
+            text-decoration: line-through;
+            color: rgb(100, 100, 100);
+           }
+        }
+        button{
+            background-color: rgba(51,122,183,255);
+            border: none;
+            border-radius: 2px;
+            color: white;
+            height: 36px;
+            width: 50px;
+            margin-left: 20px;
+            
+            
+        }
+        
+        .checked{
+            margin-right: 20px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>ToDo List</header>
+    <div class="container">
+        <h2>ToDo List</h2>
+        <input type="text" id="Input" placeholder="New Task">
+        <button id="add" onclick="addTask()">Add</button>
+
+        <ul id="List"> </ul>
+    </div>
+
+    <script>
+        function addTask(){
+            let taskInput= document.getElementById("Input");
+            let text = taskInput.value;
+            if(text === '') return;
+
+
+            let li = document.createElement('li');
+            let check = document.createElement('input');
+            check.type = 'checkbox';
+            check.classList.add('checked');
+
+            check.onclick=function(){
+                li.classList.toggle("done", check.checked );
+            };
+
+            let span = document.createElement('span');
+            span.textContent=text;
+
+
+            let deleteButton = document.createElement("button");
+            deleteButton.textContent="Delete";
+
+            deleteButton.onclick=function(){
+                li.remove();
+            };
+
+            li.appendChild(check);
+            li.appendChild(span);
+            li.append(deleteButton);
+            document.getElementById("List").appendChild(li);
+
+            taskInput.value="";
+
+
+        }
+    </script>
+    
+</body>
+</html>

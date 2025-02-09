@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 8px;
+            border-bottom: 1px solid #ddd;
+        }
+        .done {
+            text-decoration: line-through;
+            color: gray;
+        }
+        button {
+            background: red;
+            color: white;
+            border: none;
+            padding: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>To-Do List</h2>
+        <input type="text" id="taskInput" placeholder="New task...">
+        <button id="add" onclick="addTask()">Add</button>
+        <ul id="taskList"></ul>
+    </div>
+    
+    <script>
+        function addTask() {
+            let taskInput = document.getElementById("taskInput");
+            let taskText = taskInput.value;
+            if (taskText === "") return;
+
+            let li = document.createElement("li");
+            let checkbox = document.createElement("input");
+            checkbox.type = "checkbox";
+            checkbox.onchange = function() {
+                li.classList.toggle("done", checkbox.checked);
+            };
+            
+            let span = document.createElement("span");
+            span.textContent = taskText;
+            
+            let deleteButton = document.createElement("button");
+            deleteButton.textContent = "Delete";
+            deleteButton.onclick = function() {
+                li.remove();
+            };
+
+            li.appendChild(checkbox);
+            li.appendChild(span);
+            li.appendChild(deleteButton);
+            document.getElementById("taskList").appendChild(li);
+
+            taskInput.value = "";
+        }
+    </script>
+</body>
+</html>

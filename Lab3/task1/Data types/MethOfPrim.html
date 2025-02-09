@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        "use strict";
+
+        function read(){
+            let num;
+
+            do{
+                num= prompt('num', '');
+
+            }while(!isFinite(num));
+            
+            if(num===null || num ==='') return null;
+            return +num;
+        }
+
+        alert(`read: ${read()}`);
+        
+
+
+
+        // let a = +prompt("The first number?", "");
+        // let b = +prompt("The second number?", "");
+            
+        // alert( a + b );
+
+
+
+
+        // alert( parseInt('100px') ); // 100
+        // alert( parseFloat('12.5em') ); // 12.5
+
+        // alert( parseInt('12.3') ); // 12, only the integer part is returned
+        // alert( parseFloat('12.3.4') ); // 12.3, the second point stops the reading
+
+
+
+
+        // alert( 9999999999999999n );
+        // alert( 9999999999999999 );
+        // alert( 1e500 );
+        // let num=255;
+        // alert(num.toString(25));
+        // alert(num.toString(3));
+    </script>
+</body>
+</html>

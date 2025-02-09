@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        "use strict";
+
+        function Accumulator(startingValue) {
+          this.value = startingValue;
+        
+          this.read = function() {
+            this.value += +prompt('How much to add?', 0);
+          };
+        
+        }
+        
+        let accumulator = new Accumulator(1);
+        accumulator.read();
+        accumulator.read();
+        alert(accumulator.value);
+
+
+
+        // function multiplyNumeric(obj){
+        //     for (let key in obj){
+        //         if (typeof obj[key] =="number"){
+        //             obj[key]*=2;
+        //         }
+        //     }
+        // }
+
+
+
+
+
+
+
+        // let user={};
+        // user.name='John';
+        // user.surname='Smith';
+        // user.name='Pete';
+        // delete user.name;
+
+        // function isEmpty(obj){
+        //     for (let key in obj){
+        //         return false;
+
+        //     }
+        //     return true;
+        // }
+
+        // sum=0;
+        // for(let key in salaries){
+        //     sum+=salaries[key];
+        // }
+        // alert(sum);
+
+        // let obj={
+        //     for:1, 
+        //     let: 2, 
+        //     return: 3,
+        //     0:8, 
+
+
+        // }
+        // obj.__proto__= 5;
+        // alert(obj.__proto__);
+        // alert(obj.for + obj.let + obj[0]);
+        // alert('0' in obj);
+        // alert('5' in obj);
+        // let a="for";
+        // alert(a in obj);
+
+        // for (let key in obj){
+        //     alert(key);
+        //     alert(obj[key]);
+        // }
+        
+        
+
+       
+       
+       
+       
+       
+        // function makeUser(name, age, surname){
+        //     return{
+        //         name: name,
+        //         age: 19,
+        //         surname
+
+        //     };
+        // }
+
+        // let user= makeUser('Dasha', 19, 'Kapuzayeva');
+        // alert(user.name);
+
+
+
+
+
+
+
+
+
+
+
+
+        // let fruit=prompt("what?", 'apple');
+
+        // let bag = {
+        //     [fruit]: 5,
+        // };
+
+        // alert(bag.apple);
+
+
+
+
+
+
+
+
+
+        // let user ={
+        //     name: "Dasha", 
+        //     age: 19, 
+        //     "tries to study": true,
+        // };
+
+        // let key= prompt("what u want?", 'name');
+        // alert( user[key] );
+
+
+
+
+
+
+
+        // alert(user.age);
+        // alert(user.name);
+
+        // user.isAdmin=true;
+
+        // delete user.age;
+
+        // alert(user.age);
+
+        // alert(user["tries to study"]);
+
+
+
+    </script>
+</body>
+</html>
