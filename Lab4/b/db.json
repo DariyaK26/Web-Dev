@@ -1,0 +1,93 @@
+{
+    "locations":[
+        {
+            "id":0,
+            "image":"/assets/adapter1.jpg",
+            "name":"Apple 18W USB-C Power Adapter",
+            "description":"Зарядное устройство Apple 18W USB-C Power Adapter USB Type-C белый", 
+            "rating":"5.0",
+            "link":"https://kaspi.kz/shop/p/apple-18w-usb-c-power-adapter-usb-type-c-belyi-102743952/?c=750000000&utm_source=google&utm_medium=cpc&utm_campaign=shop_google_performance_max_clothes&gclid=CjwKCAiAtsa9BhAKEiwAUZAszYfOT8DnVjJP2BLCWfb4Agmsshbc8fhDu1ADYftGkoKNIV1F7Ew05hoCwA4QAvD_BwE"
+        },
+
+        {
+            "id":1,
+            "image":"/assets/cabel1.jpg",
+            "name":"Lightning, USB TypeC cable",
+            "description":"Кабель Apple Lightning (M), USB TypeC (M) белый", 
+            "rating":"4.7",
+            "link":"https://kaspi.kz/shop/p/kabel-apple-lightning-m-usb-typec-m-belyi-40500508/?c=750000000&utm_source=google&utm_medium=cpc&utm_campaign=shop_google_performance_max_clothes&gclid=CjwKCAiAtsa9BhAKEiwAUZAszYfOT8DnVjJP2BLCWfb4Agmsshbc8fhDu1ADYftGkoKNIV1F7Ew05hoCwA4QAvD_BwE"
+        },
+
+        {
+            "id":2,
+            "image":"/assets/case.jpg",
+            "name":"Portcase 9011",
+            "description":"Сумка Portcase 9011 черный", 
+            "rating":"4.9",
+            "link":"https://kaspi.kz/shop/p/sumka-portcase-9011-chernyi-108895248/?c=750000000&utm_source=google&utm_medium=cpc&utm_campaign=shop_google_performance_max_clothes&gclid=CjwKCAiAtsa9BhAKEiwAUZAsze8e_1xulJgCELyZx3lDz6msVydVM2IM5GvrRHSDNKSuL9g4c_YkCBoCMwoQAvD_BwE"
+        },
+
+        {
+            "id":3,
+            "image":"/assets/flash.jpg",
+            "name":"Flash card",
+            "description":"USB Flash карта Kingston DataTraveler Exodia DTX/64GB 64 Гб", 
+            "rating":"4.9",
+            "link":"https://kaspi.kz/shop/p/kingston-datatraveler-exodia-dtx-64gb-64-gb-100759959/?c=750000000&utm_source=google&utm_medium=cpc&utm_campaign=shop_google_performance_max_clothes&gclid=CjwKCAiAtsa9BhAKEiwAUZAsze8e_1xulJgCELyZx3lDz6msVydVM2IM5GvrRHSDNKSuL9g4c_YkCBoCMwoQAvD_BwE"
+        },
+
+        {
+            "id":4,
+            "image":"/assets/iphone1.jpg",
+            "name":"Iphone 16",
+            "description":"Смартфон Apple iPhone 16 Pro Max 256Gb черный", 
+            "rating":"4.8",
+            "link":"https://kaspi.kz/shop/p/apple-iphone-16-pro-max-256gb-chernyi-123787551/?c=750000000&utm_source=google&utm_medium=cpc&utm_campaign=shop_google_performance_max_clothes&gclid=CjwKCAiAtsa9BhAKEiwAUZAszYfOT8DnVjJP2BLCWfb4Agmsshbc8fhDu1ADYftGkoKNIV1F7Ew05hoCwA4QAvD_BwE"
+        },
+
+        {
+            "id":5,
+            "image":"/assets/keyboard.jpg",
+            "name":"Keyboard",
+            "description":"Клавиатура AULA F75 белый", 
+            "rating":"4.8",
+            "link":"https://kaspi.kz/shop/p/aula-f75-belyi-117731409/?c=750000000&utm_source=google&utm_medium=cpc&utm_campaign=shop_google_performance_max_clothes&gclid=CjwKCAiAtsa9BhAKEiwAUZAsze8e_1xulJgCELyZx3lDz6msVydVM2IM5GvrRHSDNKSuL9g4c_YkCBoCMwoQAvD_BwE"
+        },
+
+        {
+            "id":6,
+            "image":"/assets/mouse1.jpg",
+            "name":"Mouse",
+            "description":"Мышь Wireless Mouse черный", 
+            "rating":"4.9",
+            "link":"https://kaspi.kz/shop/p/wireless-mouse-chernyi-109619826/?c=750000000&utm_source=google&utm_medium=cpc&utm_campaign=shop_google_performance_max_clothes&gclid=CjwKCAiAtsa9BhAKEiwAUZAsze8e_1xulJgCELyZx3lDz6msVydVM2IM5GvrRHSDNKSuL9g4c_YkCBoCMwoQAvD_BwE"
+        },
+
+        {
+            "id":7,
+            "image":"/assets/notestand.jpg",
+            "name":"notestand",
+            "description":"Подставка для ноутбука Notestand", 
+            "rating":"4.8",
+            "link":"https://kaspi.kz/shop/p/notestand-102983515/?c=750000000&utm_source=google&utm_medium=cpc&utm_campaign=shop_google_performance_max_clothes&gclid=CjwKCAiAtsa9BhAKEiwAUZAsze8e_1xulJgCELyZx3lDz6msVydVM2IM5GvrRHSDNKSuL9g4c_YkCBoCMwoQAvD_BwE"
+        },
+
+        {
+            "id":8,
+            "image":"/assets/router.jpg",
+            "name":"Wi-Fi Router",
+            "description":"Wi-Fi роутер TP-LINK TD-W8961N", 
+            "rating":"4.8",
+            "link":"https://kaspi.kz/shop/p/wi-fi-router-tp-link-td-w8961n-7600132/?c=750000000&utm_source=google&utm_medium=cpc&utm_campaign=shop_google_performance_max_clothes&gclid=CjwKCAiAtsa9BhAKEiwAUZAsze8e_1xulJgCELyZx3lDz6msVydVM2IM5GvrRHSDNKSuL9g4c_YkCBoCMwoQAvD_BwE"
+        },
+
+        {
+            "id":9,
+            "image":"/assets/xiaomi.jpg",
+            "name":"Xiaomi",
+            "description":"Смартфон Xiaomi Redmi 13C 8 ГБ/256 ГБ черный", 
+            "rating":"4.5",
+            "link":"https://kaspi.kz/shop/p/xiaomi-redmi-13c-8-gb-256-gb-chernyi-114695323/?c=750000000&utm_source=google&utm_medium=cpc&utm_campaign=shop_google_performance_max_clothes&gclid=CjwKCAiAtsa9BhAKEiwAUZAszYfOT8DnVjJP2BLCWfb4Agmsshbc8fhDu1ADYftGkoKNIV1F7Ew05hoCwA4QAvD_BwE"
+        }
+    ]
+}
