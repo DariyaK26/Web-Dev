@@ -1,0 +1,18 @@
+<article>
+    <img [src]="product?.imageUrls" alt="" class="listing-photo">
+    <section class="listing-description">
+        
+        <h2 class="listing-heading">
+            {{product?.name}}
+        </h2>
+        <p class="p-description">{{product?.description}}</p>
+        
+        <p class="listing-rating">Rating:
+            
+            {{product?.rating}}
+            
+        </p>
+        <a [href]="product?.link">in Kaspi.kz</a>
+    </section>
+
+</article>
