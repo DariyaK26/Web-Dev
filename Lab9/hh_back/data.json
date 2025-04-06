@@ -1,0 +1,103 @@
+[
+    {
+      "model": "api.company",
+      "pk": 1,
+      "fields": {
+        "name": "TechCorp",
+        "description": "A leading tech solutions company",
+        "city": "Almaty",
+        "address": "123 Innovation Street"
+      }
+    },
+    {
+      "model": "api.company",
+      "pk": 2,
+      "fields": {
+        "name": "Foodies",
+        "description": "Food delivery services across Kazakhstan",
+        "city": "Astana",
+        "address": "456 Gourmet Ave"
+      }
+    },
+    {
+      "model": "api.company",
+      "pk": 3,
+      "fields": {
+        "name": "BuildIt",
+        "description": "Construction and architecture firm",
+        "city": "Shymkent",
+        "address": "789 Builder Rd"
+      }
+    },
+    {
+      "model": "api.vacancy",
+      "pk": 1,
+      "fields": {
+        "name": "Backend Developer",
+        "description": "Experience with Django required.",
+        "salary": 300000.0,
+        "company": 1
+      }
+    },
+    {
+      "model": "api.vacancy",
+      "pk": 2,
+      "fields": {
+        "name": "Frontend Developer",
+        "description": "Experience with React.js preferred.",
+        "salary": 280000.0,
+        "company": 1
+      }
+    },
+    {
+      "model": "api.vacancy",
+      "pk": 3,
+      "fields": {
+        "name": "Delivery Driver",
+        "description": "Own transport required.",
+        "salary": 150000.0,
+        "company": 2
+      }
+    },
+    {
+      "model": "api.vacancy",
+      "pk": 4,
+      "fields": {
+        "name": "Data Analyst",
+        "description": "Work with business intelligence tools.",
+        "salary": 310000.0,
+        "company": 1
+      }
+    },
+    {
+      "model": "api.vacancy",
+      "pk": 5,
+      "fields": {
+        "name": "Chef",
+        "description": "5 years of experience in European cuisine.",
+        "salary": 200000.0,
+        "company": 2
+      }
+    },
+    {
+      "model": "api.vacancy",
+      "pk": 6,
+      "fields": {
+        "name": "Civil Engineer",
+        "description": "Certified with on-site experience.",
+        "salary": 350000.0,
+        "company": 3
+      }
+    },
+    {
+      "model": "api.vacancy",
+      "pk": 7,
+      "fields": {
+        "name": "Project Manager",
+        "description": "Leadership and Agile knowledge required.",
+        "salary": 330000.0,
+        "company": 3
+      }
+    }
+  ]
+  
