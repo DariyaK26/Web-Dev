@@ -17,13 +17,12 @@ export class RestaurantsComponent implements OnInit {
   constructor(private restaurantService: RestaurantService) {}
 
   ngOnInit(): void {
-    this.restaurantService.getRestaurants().subscribe({
-      next: (data) => {
-        this.restaurants = data;
-      },
-      error: () => alert('Ошибка загрузки ресторанов')
+    this.restaurantService.getRestaurants().subscribe(data => {
+      console.log('📦 Список ресторанов:', data); // ← это выведет JSON
+      this.restaurants = data;
     });
+    
   }
-
+  
   
 }

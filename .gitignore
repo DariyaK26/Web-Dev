@@ -19,7 +19,7 @@ ENV/
 
 # Django specific
 /staticfiles/
-/media/
+#/media/
 /db.sqlite3
 
 # VSCode / JetBrains

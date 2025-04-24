@@ -68,8 +68,9 @@ h2 {
   font-size: 1.1rem;
 }
 
-.card p {
-  margin: 0.25rem 0;
-  color: #444;
-  font-size: 0.95rem;
+.card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 12px 12px 0 0;
 }

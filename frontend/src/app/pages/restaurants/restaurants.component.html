@@ -3,7 +3,12 @@
 <div class="restaurants-wrapper">
   <div *ngFor="let restaurant of restaurants" class="card">
     <!-- Миниатюра -->
-    <img src="assets/restaurant-icon.png" alt="icon" />
+    <img
+    *ngIf="restaurant.image"
+    [src]="restaurant.image.startsWith('http') ? restaurant.image : 'http://localhost:8000' + restaurant.image"
+    alt="Фото ресторана"
+  />
+  
 
     <div class="card-content">
       <a [routerLink]="['/restaurant', restaurant.id]">
