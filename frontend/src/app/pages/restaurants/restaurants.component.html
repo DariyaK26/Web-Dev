@@ -1,22 +1,38 @@
 <h2>Список ресторанов</h2>
 
+<!-- Поиск -->
+<input
+  type="text"
+  placeholder="🔍 Поиск по названию или локации"
+  (input)="onSearchChange($event)"
+  [value]="search"
+  style="width: 100%; max-width: 400px; padding: 0.6rem; margin-bottom: 1rem; border: 2px solid #ccc; border-radius: 8px;"
+/>
+
+<!-- Список ресторанов -->
 <div class="restaurants-wrapper">
-  <div *ngFor="let restaurant of restaurants" class="card">
-    <!-- Миниатюра -->
-    <img
-    *ngIf="restaurant.image"
-    [src]="restaurant.image.startsWith('http') ? restaurant.image : 'http://localhost:8000' + restaurant.image"
-    alt="Фото ресторана"
-  />
-  
+  <div *ngIf="filteredRestaurants.length > 0; else noResults">
+    <div *ngFor="let restaurant of filteredRestaurants" class="card">
+      <!-- Миниатюра -->
+      <img
+        *ngIf="restaurant.image"
+        [src]="restaurant.image.startsWith('http') ? restaurant.image : 'http://localhost:8000' + restaurant.image"
+        alt="Фото ресторана"
+      />
 
-    <div class="card-content">
-      <a [routerLink]="['/restaurant', restaurant.id]">
-        <h3>{{ restaurant.name }}</h3>
-      </a>
-
-      <p>{{ restaurant.description }}</p>
-      <p>Локация: {{ restaurant.location }}</p>
+      <!-- Контент -->
+      <div class="card-content">
+        <a [routerLink]="['/restaurant', restaurant.id]">
+          <h3>{{ restaurant.name }}</h3>
+        </a>
+        <p>{{ restaurant.description }}</p>
+        <p><em>Локация:</em> {{ restaurant.location }}</p>
+      </div>
     </div>
   </div>
+
+  <!-- Нет результатов -->
+  <ng-template #noResults>
+    <p style="color: #888;">Ничего не найдено по запросу "{{ search }}"</p>
+  </ng-template>
 </div>
