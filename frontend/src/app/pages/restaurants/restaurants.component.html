@@ -1,0 +1,17 @@
+<h2>Список ресторанов</h2>
+
+<div class="restaurants-wrapper">
+  <div *ngFor="let restaurant of restaurants" class="card">
+    <!-- Миниатюра -->
+    <img src="assets/restaurant-icon.png" alt="icon" />
+
+    <div class="card-content">
+      <a [routerLink]="['/restaurant', restaurant.id]">
+        <h3>{{ restaurant.name }}</h3>
+      </a>
+
+      <p>{{ restaurant.description }}</p>
+      <p>Локация: {{ restaurant.location }}</p>
+    </div>
+  </div>
+</div>

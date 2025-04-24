@@ -1,0 +1,19 @@
+<h2>Детали ресторана</h2>
+
+<p *ngIf="restaurant">
+  <strong>{{ restaurant.name }}</strong><br />
+  {{ restaurant.description }}<br />
+  <em>Локация: {{ restaurant.location }}</em>
+</p>
+
+<!-- карта -->
+<div id="map" class="map-container" style="height: 300px; margin-top: 1rem;"></div>
+
+<nav>
+  <a [routerLink]="['menu']">📋 Меню</a> |
+  <a [routerLink]="['reviews']">⭐ Отзывы</a> |
+  <a [routerLink]="['booking']">📅 Забронировать</a>
+</nav>
+
+<hr />
+<router-outlet></router-outlet>
